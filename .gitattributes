@@ -1,0 +1,14 @@
+* text=auto
+
+# Ensure shell scripts, Maven wrapper, and Docker configs always use LF
+*.sh text eol=lf
+mvnw text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+nginx.conf text eol=lf
+
+# Windows batch & PowerShell scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
